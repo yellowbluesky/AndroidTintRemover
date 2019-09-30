@@ -25,8 +25,8 @@ public class Monkey implements IXposedHookLoadPackage {
     }
 
     private void hijackAll(ClassLoader classLoader, String className) {
-        hijack(classLoader, className, "getMainColor", "mMainColor", 0xff212121);
-        hijack(classLoader, className, "getSecondaryColor", "mSecondaryColor", 0xff000000);
+        hijack(classLoader, className, "getMainColor", "mMainColor", 0x00000000);
+        hijack(classLoader, className, "getSecondaryColor", "mSecondaryColor", 0x00000000);
         hijack(classLoader, className, "supportsDarkText", "mSupportsDarkText", false);
     }
 
