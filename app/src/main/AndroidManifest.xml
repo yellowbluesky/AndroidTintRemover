@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="moe.banana.mods.notint">
+    package="com.antony.PieTintRemover.notint">
 
     <application
         android:icon="@mipmap/ic_launcher"
