@@ -1,26 +1,22 @@
-# OreoTintRemover
+# AndroidTintRemover
 
-One of the most foolish things I found immediately after upgrading from Nougat to Oreo (Android 8.1) is that
-they paint my wallpaper like a sh*t! Surprise, that's the new [feature][1] of cool Android!
+Forked from OreoTintRemover.
 
-Well, let's fix the "feature":
+Gives you a crystal clear lockscreen. Notification shade is also made crystal clear
 
-1. Get rooted
-2. Install [Xposed Framework][2]
-3. Install [OreoTintRemover][3]
+Tested to work on my device, Redmi Note 7 Pro running Lineage 16.0 (Android 9.0)
+
+This Xposed module will likely work for any other ROM based on AOSP, however I make no guarantees and offer no warranty or support.
+
+1. Install latest Magisk Framework (tested with Magisk 19.3)
+2. Install "Riru - Core" Magisk module (tested with version 19.5)
+3. Optionally reboot here
+4. Install "Riru - EdXposed" Magisk module (tested with v0.4.5.1_beta(4463) Sandhook)
+5. Install [EdXposed Manager](https://github.com/ElderDrivers/EdXposedManager/releases/tag/v4.5.1), tested to work with version 4.5.1
+6. Build this module, and install it (release coming soon)
 4. Enable the module in Xposed Installer
 5. Reboot
-
-## Build
-
-```
-./gradlew assembleDebug
-```
 
 ## License
 
 (The WTFPL)
-
-[1]: https://www.androidpolice.com/2017/10/26/android-8-1-feature-spotlight-wallpaper-based-themes-include-tinted-notification-power-menu-shadows-just-like-pixel-2/
-[2]: http://dl-xda.xposed.info/framework/sdk27/
-[3]: http://repo.xposed.info/module/moe.banana.mods.notint
