@@ -6,6 +6,8 @@ Gives you a crystal clear lockscreen. Notification shade is also made crystal cl
 
 Tested to work on my device, Redmi Note 7 Pro running Lineage 16.0 (Android 9.0)
 
+EdXposed triggers snapchat, so I no longer use this software
+
 This Xposed module will likely work for any other ROM based on AOSP, however I make no guarantees and offer no warranty or support.
 
 ## Instructions
